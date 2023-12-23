@@ -11,8 +11,6 @@ Minecraftに酸性雨を簡易的に実装する
 ```
 
 
-## 早見表
-
 | Name | 酸性雨 / acid rain |
 | --- | --- |
 | compatibility MCVer | 1.20.X |

@@ -1,7 +1,7 @@
-# jkmcdp
+# jkm
 Who's need this?
 
-## Feature List (NOT All in One)
+## 機能リスト
 
 | Feature Name | Supported MCVer | Latest version | (Directory Name) |
 | --- | --- | --- | --- |
