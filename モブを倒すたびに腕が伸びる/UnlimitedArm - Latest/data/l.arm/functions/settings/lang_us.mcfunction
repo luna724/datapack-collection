@@ -6,4 +6,4 @@ execute at @s run playsound ui.button.click master @s ~ ~ ~ 100 1.5
 tellraw @s [{"text":"\n\n\n\n\n"}]
 function l.arm:settings/
 
-tellraw @a [{"text": "\nLanguage is Successfully Changed to English (US)!", "color":"green"}]
+# tellraw @a [{"text": "\nLanguage is Successfully Changed to English (US)!", "color":"green"}]

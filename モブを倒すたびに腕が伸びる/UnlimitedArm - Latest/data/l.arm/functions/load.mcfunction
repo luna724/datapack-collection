@@ -30,3 +30,6 @@ execute unless score #l.ua_ResetOnDeath l.ua_Settings = #l.ua_ResetOnDeath l.ua_
 
 # Init
 execute as @a at @s if entity @s[tag=!l.ua_AlreadyInit] run function l.arm:init
+
+# 定期的なリーチ検査
+function l.arm:rld_reach
