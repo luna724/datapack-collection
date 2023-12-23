@@ -1,9 +1,9 @@
-# リセット
+# 減らす
 scoreboard players set @s l.ua_MobKills 0
 
 # スコア値の修正
-scoreboard players operation #l.LongArmPerOperation l.ua_Settings = #l.ua_LongArmPerContent l.ua_Settings
-scoreboard players operation #l.LongArmPerOperation l.ua_Settings /= #10 l.ua_Settings
+scoreboard players operation #l.ua_LongArmPerOperation l.ua_Settings = #l.ua_LongArmPerContent l.ua_Settings
+scoreboard players operation #l.ua_LongArmPerOperation l.ua_Settings /= #10 l.ua_Settings
 
 # 増加値に応じてリーチ数を示すスコアボードを上昇
 scoreboard players operation @s l.ua_CurrentReach += #l.ua_LongArmPerOperation l.ua_Settings
