@@ -1,0 +1,51 @@
+{
+    "CACHE_LOADING": false,
+    "DONE": true,
+    "LANG": {
+        "sc": "en",
+        "q001": "Using Cache(previous your answer) for skip this question [Y / N]: ",
+        "q002": "Script Version (if blank, use Latest) [Latest / v1]: ",
+        "q003": "Use Previous Datapack (Additional Mode) [Y / N]: ",
+        "q004": "Previous Datapack Path (Load From) [Any (Your Previous Datapack root's fullpath)]: ",
+        "q005": "Check Datapack Update? (pack.mcmeta) [Y / N]: ",
+        "q006": "pack.mcmeta Version [auto / Any Integer (NO Syntax Checking!)]: ",
+        "q999": "please wait..",
+        "ui": {
+            "stderr_001": "Stderr: givecmd item is only can input a \"lingering_potion\"",
+            "Tab1": {
+                "itemName": "Item Name",
+                "itemRegistryName": "[Optional] Item Registry Name",
+                "Title": "Right Click Detector",
+                "useFileInput": "Input Command from File",
+                "targetPath": "Target File (.mcfunction)",
+                "selectButton": "Browse",
+                "useTextInput": "Input Command from Textbox",
+                "text": "Minecraft Command",
+                "clickItem": "Target Item",
+                "saveFileName": "Filename (e.g. mains = namespace:main/itemName/mains.mcfunction)",
+                "writeIndex": "Write Index (write \"#> Path\" to line 1)",
+                "overwrite": "Force Update",
+                "status": "Status",
+                "save": "Save",
+                "function_loader": "function Loader",
+                "function_loaders": {
+                    "warn_message": "This feature is experimental / unstable <br >",
+                    "loadFrom": "Load from (datapack syntax)",
+                    "experimental_warn": "Experimental Mode",
+                    "useThis": "Use EX Mode",
+                    "loadFrom_EX": "Load from",
+                    "noSave": "noSave loading (don't save previous code (if written))",
+                    "load": "Load"
+                },
+                "useCustomItemTag": "[Experimental] use Custom Item Tag",
+                "CustomItemTag": "[Experimental] Override Custom Item tag",
+                "CIT_WARN": "if you don't know about this, don't use it!!",
+                "givecmd": "Item Give command",
+                "givecmd_tip": "Give command generator: https://mcstacker.net/"
+            }
+        }
+    },
+    "SCRIPT": "Latest",
+    "USE_PP": false,
+    "MCMETA_VER": "auto"
+}

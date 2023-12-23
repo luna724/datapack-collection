@@ -1,0 +1,50 @@
+{
+  "pack_number": 26,
+  "pack_mcmeta": "{\"pack\": {\"pack_format\": $PACK_FORMAT,\"description\": \"\"}}",
+  "datapack_namespace": "l.ctjg",
+  "tick": "tick.mcfunction",
+  "load": "load.mcfunction",
+  "reset": "reset_all.mcfunction",
+  "settings": "setting",
+  "main_code": "main",
+  "activate_setting": true,
+  "code": {
+    "tick": "func_root.tick.mcfunction",
+    "load": "func_root.load.mcfunction",
+    "setting_set_default": "execute unless score #.self_itemRegistryName luna_ctGen_Options = #.self_itemRegistryName luna_ctGen_Options run scoreboard players set #.self_itemRegistryName luna_ctGen_Options 0",
+    "reset": "func_root.reset.mcfunction",
+    "setting_trigger": "setting_trigger.trigger.mcfunction",
+    "setting_toggle": "setting_toggler.itemname.mcfunction"
+  },
+  "jar_code": {
+    "lingering_potion": {
+      "checker_basic": "jar_code.lingering_potion.mcfunction",
+      "checker_template_code": "execute anchored eyes positioned ^ ^ ^ if entity @e[type=potion,nbt={Item:{tag:{lunacttype:%id%}}},distance=..2,sort=nearest,limit=1] run function " 
+    },
+    "carrot_of_stick": {
+      "checker_basic": "jar_code.cos.mcfunction"
+    },
+    "tick": "",
+    "trigger": ""
+  },
+  "have_mcload_tick": true,
+  "mctf": {
+    "tick.json": {"values": [""]},
+    "load.json": {"values": [""]}
+  },
+  "output_to": ["outputs", "{}_Creator-Tools"],
+  "kill_potion": true,
+  
+
+  "ui": {
+    "disable_function_loader": false,
+    "": ""
+  },
+
+
+  "code_variable": {
+    "Do not Editing these value!!!": "These could break the code!",
+    "memo1": "checker/lingering_potion の リセットコード",
+    "ling_resetter": "\n\n###Don'tDeleteThisLine!!!\nscoreboard players reset @s luna.ThrowedPotion\n"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "sc": "ja",
+  "q001": "質問のスキップに前回の回答を使用する [Y / N]: ",
+  "q002": "スクリプトバージョン (何も入力しなかった場合 Latest が代入される) [Latest / v1]: ",
+  "q003": "前回のデータパックを使用 (追加モード) [Y / N]: ",
+  "q004": "対象データパックのパス (読み込み先) [Any (読み込み先のデータパックのルートのフルパス)]: ",
+  "q005": "データパックのアップデートをチェック (pack.mcmeta) [Y / N]: ",
+  "q006": "pack.mcmeta Version [auto / いずれの整数値 (構文チェックなし)]: ",
+  "q999": "loading..",
+
+  "ui": {
+    "stderr_001": "Stderr: givecmd には \"lingering_potion\" しか入力できません",
+    "Tab1": {
+      "itemName": "アイテム名",
+      "itemRegistryName": "[任意] アイテムのレジストリ名",
+      "Title": "右クリック検出",
+      "useFileInput": "コマンドの入力をファイルから行う",
+      "targetPath": "対象ファイル (.mcfunction)",
+      "selectButton": "参照",
+      "useTextInput": "コマンドの入力をテキストボックスから行う",
+      "text": "コマンド",
+      "clickItem": "対象アイテム",
+      "saveFileName": "ファイル名 (例: mains = namespace:main/itemName/mains.mcfunction)",
+      "writeIndex": "インデックスの書き込み (\"#> Path\" と1行目に書き込み)",
+      "overwrite": "強制書き込み",
+      "status": "ステータス",
+      "save": "保存",
+      "function_loader": "ファイルローダー",
+      "function_loaders": {
+        "warn_message": "この機能は実験的で、不安定です <br >",
+        "loadFrom": "読み込み先 (データパック記入方式)",
+        "experimental_warn": "実験的機能",
+        "useThis": "EXモードを使用",
+        "loadFrom_EX": "読み込み先",
+        "noSave": "保存なしでの読み込み",
+        "load": "読み込み"
+      },
+      "useCustomItemTag": "[Experimental] use Custom Item Tag",
+      "CustomItemTag": "[Experimental] Override Custom Item tag",
+      "CIT_WARN": "if you don't know about this, don't use it!!",
+      "givecmd": "Item Give command",
+      "givecmd_tip": "Give command generator: https://mcstacker.net/"
+    }
+  }
+}

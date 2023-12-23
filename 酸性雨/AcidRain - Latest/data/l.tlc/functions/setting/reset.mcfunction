@@ -1,0 +1,1 @@
+advancement revoke @p only l.tlc:load
