@@ -13,13 +13,13 @@ scoreboard players set #10 l.ua_Settings 10
 # 設定
 # Acceptable (from Setting) Value [1, 5, 12, 50]
 # can input 1 ~ 2.1b Integer
-execute unless score #l.ua_ECN l.ua_Settings = #l.ua_ECN l.ua_Settings run scoreboard players set #l.ua_ECN l.ua_Settings 2
-execute unless score #l.ua_EntityPerLongArm l.ua_Settings = #l.ua_EntityPerLongArm l.ua_Settings run scoreboard players set #l.ua_EntityPerLongArm l.ua_Settings 12
+execute unless score #l.ua_ECN l.ua_Settings = #l.ua_ECN l.ua_Settings run scoreboard players set #l.ua_ECN l.ua_Settings 1
+execute unless score #l.ua_EntityPerLongArm l.ua_Settings = #l.ua_EntityPerLongArm l.ua_Settings run scoreboard players set #l.ua_EntityPerLongArm l.ua_Settings 5
 # 10 = 1 / input_value = x/10 Reach per Operation 
 # Acceptable (from Setting) Value [1, 5, 10, 20, 30, 50, 100]
 # can input 1 ~ 1000 Integer
-execute unless score #l.ua_RON l.ua_Settings = #l.ua_RON l.ua_Settings run scoreboard players set #l.ua_RON l.ua_Settings 1
-execute unless score #l.ua_LongArmPerContent l.ua_Settings = #l.ua_LongArmPerContent l.ua_Settings run scoreboard players set #l.ua_LongArmPerContent l.ua_Settings 20
+execute unless score #l.ua_RON l.ua_Settings = #l.ua_RON l.ua_Settings run scoreboard players set #l.ua_RON l.ua_Settings 2
+execute unless score #l.ua_LongArmPerContent l.ua_Settings = #l.ua_LongArmPerContent l.ua_Settings run scoreboard players set #l.ua_LongArmPerContent l.ua_Settings 10
 # Acceptable Value: [0.5 (999), 1, 3, 5, 10]
 # DefaultReach  Normalization Scoreobject = #l.ua_DRN
 execute unless score #l.ua_DRN l.ua_Settings = #l.ua_DRN l.ua_Settings run scoreboard players set #l.ua_DRN l.ua_Settings 1
@@ -27,7 +27,7 @@ execute unless score #l.ua_DefaultReach l.ua_Settings = #l.ua_DefaultReach l.ua_
 # 0 = False / bool
 execute unless score #l.ua_OnlyBlockReach l.ua_Settings = #l.ua_OnlyBlockReach l.ua_Settings run scoreboard players set #l.ua_OnlyBlockReach l.ua_Settings 0
 # 0 = False / bool
-execute unless score #l.ua_ResetOnDeath l.ua_Settings = #l.ua_ResetOnDeath l.ua_Settings run scoreboard players set #l.ua_ResetOnDeath l.ua_Settings 0
+execute unless score #l.ua_ResetOnDeath l.ua_Settings = #l.ua_ResetOnDeath l.ua_Settings run scoreboard players set #l.ua_ResetOnDeath l.ua_Settings 1
 
 # Init
 execute as @a at @s if entity @s[tag=!l.ua_AlreadyInit] run function l.arm:init
