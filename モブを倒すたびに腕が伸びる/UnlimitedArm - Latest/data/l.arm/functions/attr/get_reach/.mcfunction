@@ -1,5 +1,5 @@
 # 減らす
-scoreboard players operation @s l.ua_MobKills -= #l.ua_ 0
+scoreboard players operation @s l.ua_MobKills -= #l.ua_EntityPerLongArm l.ua_Settings
 
 # スコア値の修正
 scoreboard players operation #l.ua_LongArmPerOperation l.ua_Settings = #l.ua_LongArmPerContent l.ua_Settings
