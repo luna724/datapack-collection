@@ -6,6 +6,7 @@ scoreboard objectives add l.ua_DeathCheck minecraft.custom:minecraft.deaths
 scoreboard objectives add l.ua_CurrentReach dummy
 scoreboard objectives add l.ua_Settings dummy
 scoreboard objectives add luna_unlimited_arm_setting trigger
+scoreboard objectives add l.ua_CurrentReach_resized dummy
 
 scoreboard players set #10 l.ua_Settings 10
 
@@ -32,4 +33,4 @@ execute unless score #l.ua_ResetOnDeath l.ua_Settings = #l.ua_ResetOnDeath l.ua_
 execute as @a at @s if entity @s[tag=!l.ua_AlreadyInit] run function l.arm:init
 
 # 定期的なリーチ検査
-function l.arm:rld_reach
+# function l.arm:rld_reach
