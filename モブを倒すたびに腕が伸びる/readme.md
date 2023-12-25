@@ -12,7 +12,7 @@
 
 | Name | 無限の腕 / Unlimited Arm |
 | --- | --- |
-| Datapack version | v1.0pre7 | 
+| Datapack version | v1.0 | 
 | compatibility MCVer | 23w51b+ (1.20.5) |
 | developed MCVer | 23w51b |
 | setting Trigger | luna_unlimited_arm_setting |
@@ -20,3 +20,4 @@
 | Available lang (Experimental) | ja-jp / en-us |
 | License | MIT |
 | Known Bugs (ja-jp) | [#1](https://github.com/luna724/datapack-collection/issues/1) |
+| Development Env | [dev_env](./docs/dev_enviroment.md) |
