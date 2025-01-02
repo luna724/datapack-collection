@@ -1,3 +1,5 @@
+## Datapack-Collection は開発終了しました。
+
 Who's need this?
 
 ## 機能リスト
